@@ -3,7 +3,7 @@
 #
 
 MOD_VERSION := PIE-R.01
-AOSP_TAG_ID := android-9.0.0_r40
+AOSP_TAG_ID := android-9.0.0_r44
 
 # OpenGapps
 GAPPS_VARIANT := pico
