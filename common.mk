@@ -12,8 +12,7 @@ GAPPS_PRODUCT_PACKAGES += \
     CalendarGooglePrebuilt \
     Chrome \
     LatinImeGoogle \
-    PrebuiltGmail \
-    YouTube
+    PrebuiltGmail
 
 # Common overlay
 #PRODUCT_PACKAGE_OVERLAYS += \
