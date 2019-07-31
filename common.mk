@@ -16,7 +16,7 @@ GAPPS_PRODUCT_PACKAGES += \
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += \
-    vendor/aospmod/overlay/
+    vendor/secuflag/overlay/
 
 # SetupWizard
 #PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
