@@ -15,8 +15,8 @@ GAPPS_PRODUCT_PACKAGES += \
     PrebuiltGmail
 
 # Common overlay
-#PRODUCT_PACKAGE_OVERLAYS += \
-#    vendor/aospmod/overlay/
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/aospmod/overlay/
 
 # SetupWizard
 #PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
