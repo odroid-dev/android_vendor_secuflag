@@ -34,6 +34,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_COPY_FILES += \
     vendor/secuflag/extra/hosts:system/etc/hosts
 
+# Terminal
+PRODUCT_PACKAGES += \
+    Terminal
+
 # Eleven
 # https://github.com/LineageOS/android_packages_apps_Eleven
 PRODUCT_PACKAGES += \
