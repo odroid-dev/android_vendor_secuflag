@@ -2,7 +2,7 @@
 # secuflag versioning
 #
 
-MOD_VERSION := PIE-R.01
+MOD_VERSION := PIE-R.02
 AOSP_TAG_ID := android-9.0.0_r46
 
 # OpenGapps
