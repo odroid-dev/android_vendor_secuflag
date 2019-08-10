@@ -14,6 +14,10 @@ GAPPS_PRODUCT_PACKAGES += \
     LatinImeGoogle \
     PrebuiltGmail
 
+GAPPS_EXCLUDED_PACKAGES := \
+    PrebuiltGmail \
+    CalendarGooglePrebuilt
+
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/secuflag/overlay/
