@@ -15,8 +15,9 @@ GAPPS_PRODUCT_PACKAGES += \
     PrebuiltGmail
 
 GAPPS_EXCLUDED_PACKAGES := \
-    PrebuiltGmail \
-    CalendarGooglePrebuilt
+    CalendarGooglePrebuilt \
+    GooglePackageInstaller \
+    PrebuiltGmail
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += \
