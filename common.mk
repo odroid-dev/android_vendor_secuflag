@@ -48,7 +48,7 @@ PRODUCT_PACKAGES += \
     Eleven
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.secuflag.version=$(MOD_VERSION) \
+    ro.mod.version=$(MOD_VERSION) \
     ro.aosptag.id=$(AOSP_TAG_ID)
 
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
