@@ -9,10 +9,6 @@ AOSP_TAG_ID := android-9.0.0_r46
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/secuflag/overlay/
 
-# SetupWizard
-#PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-#    ro.setupwizard.enterprise_mode=1
-
 # Enable assistant on all devices
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.opa.eligible_device=true
