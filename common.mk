@@ -41,7 +41,8 @@ GAPPS_PRODUCT_PACKAGES += \
 GAPPS_EXCLUDED_PACKAGES := \
     CalendarGooglePrebuilt \
     GooglePackageInstaller \
-    PrebuiltGmail
+    PrebuiltGmail \
+    Turbo
 
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 endif
