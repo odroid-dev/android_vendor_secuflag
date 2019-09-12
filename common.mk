@@ -30,21 +30,7 @@ endif
 
 # OpenGapps - non-ATV target
 ifneq ($(TARGET_BUILD_GOOGLE_ATV), true)
-GAPPS_VARIANT := pico
-
-GAPPS_PRODUCT_PACKAGES += \
-    CalendarGooglePrebuilt \
-    Chrome \
-    LatinImeGoogle \
-    PrebuiltGmail
-
-GAPPS_EXCLUDED_PACKAGES := \
-    CalendarGooglePrebuilt \
-    GooglePackageInstaller \
-    PrebuiltGmail \
-    Turbo
-
-$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+include vendor/google/gapps/gapps.mk
 endif
 
 # OpenGapps - ATV target
