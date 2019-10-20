@@ -44,6 +44,9 @@ include vendor/google/atv/atv-vendor.mk
 endif
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.opengapps_installed=true
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.mod.version=$(MOD_VERSION) \
     ro.aosptag.id=$(AOSP_TAG_ID)
 
