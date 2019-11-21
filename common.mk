@@ -34,7 +34,7 @@ endif
 
 # OpenGapps - non-ATV target
 ifneq ($(TARGET_BUILD_GOOGLE_ATV), true)
-include vendor/google/gapps/gapps.mk
+include vendor/google/gapps/common.mk
 endif
 
 # OpenGapps - ATV target
