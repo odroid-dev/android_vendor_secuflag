@@ -32,7 +32,6 @@ PRODUCT_PACKAGES += \
 # Add extra apps to non-ATV target
 ifneq ($(TARGET_BUILD_GOOGLE_ATV), true)
 PRODUCT_PACKAGES += \
-    Terminal \
     Eleven
 endif
 
