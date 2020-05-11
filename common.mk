@@ -2,7 +2,7 @@
 # secuflag versioning
 #
 
-MOD_VERSION := PIE-R.09
+MOD_VERSION := PIE-R.10
 AOSP_TAG_ID := android-9.0.0_r46
 
 # Common overlay
