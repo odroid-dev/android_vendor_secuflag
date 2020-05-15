@@ -52,5 +52,3 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.mod.version=$(MOD_VERSION) \
     ro.aosptag.id=$(AOSP_TAG_ID)
-
-$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
