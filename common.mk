@@ -27,7 +27,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Extra packages
 PRODUCT_PACKAGES += \
-    curl
+    curl \
+    nano
 
 # Add extra apps to non-ATV target
 ifneq ($(TARGET_BUILD_GOOGLE_ATV), true)
