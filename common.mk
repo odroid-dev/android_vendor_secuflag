@@ -38,13 +38,13 @@ endif
 
 # OpenGapps - non-ATV target
 ifneq ($(TARGET_BUILD_GOOGLE_ATV), true)
-include vendor/google/gapps/common.mk
+include vendor/gapps/tablet/common.mk
 endif
 
 # OpenGapps - ATV target
 ifeq ($(TARGET_BUILD_GOOGLE_ATV), true)
 PRODUCT_PACKAGES += TvProvision
-include vendor/google/atv/atv-vendor.mk
+include vendor/gapps/atv/atv-vendor.mk
 endif
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
